@@ -1,0 +1,22 @@
+{
+  "name": "falora-ui",
+  "version": "1.0.1",
+  "description": "Falora UI React Component Library",
+  "license": "ISC",
+  "author": "Falak Sher",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  }
+}
